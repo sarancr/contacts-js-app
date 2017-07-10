@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>JS App</title>
+    <style>
+        #contacts > div {
+            border-bottom : 1px solid gray;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+<script src="app.js"></script>
+</head>
+
+<body>
+    <h2>JS Contact App Demo</h2>
+    <p>You can load all contacts from server by clicking the below button. This app loads all contacts from server and creates
+        it here</p>
+    <button type="button" onClick="loadContact()">Load Contacts</button>
+    <div>
+        <h2>User Contact Details</h2>
+        <div id="contacts"/>
+    </div>
+</body>
+
+</html>
